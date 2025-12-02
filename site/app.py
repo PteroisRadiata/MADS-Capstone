@@ -4,6 +4,8 @@ import pandas as pd
 from streamlit_folium import st_folium
 import folium
 
+st.set_page_config(layout="wide")
+
 st.title("Solar Panel Deployment Simulator")
 
 # Load secrets
